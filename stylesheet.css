@@ -1,0 +1,195 @@
+body{
+  justify-content: center;
+  align-items: center;
+  max-width: 100wh;
+  }
+
+.maindiv{
+    margin: 3%;
+    border:10px solid black;
+    border-radius:20px ;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.nav-item a{
+  color:beige;
+}
+.part1 , .aboutus{
+    height:100vh;
+    margin-top:3%;
+    margin-bottom:3%;
+    background-image: url(1641443414545.jpg);
+     border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+        position: relative;
+}
+
+.txtalin{
+    position: absolute;
+    top:35%;
+    left:50%;
+}
+ .aboutus{
+  padding-left:20%;
+  padding-right:20%;
+  padding-top:10%;
+  height:500px;
+  overflow-y: auto;
+} 
+
+.part-4{
+  padding-bottom: 3%;
+  background-color:rgb(137, 171, 235);
+  margin-bottom:3px;
+  border-radius:9px;
+  width:max-content;
+   box-shadow: 5px 5px 10px rgb(137, 171, 235),-5px -5px 10px rgb(137, 171, 235);
+}
+.part-4 h1{
+  font-size:100px;
+}
+.part-4 h6{
+  font-size:30px;
+}
+
+.part-5{
+  background-image: url("lukas-bato-BAhBnhkbVuU-unsplash.jpg");
+ 
+   border-radius: 10px;
+    height:500px;
+    padding-left:20%;
+padding-right:20%;
+background-position: center;
+background-size: cover;
+position: relative;
+padding-top:20%;
+}
+
+.part-6{
+  color:rgb(137, 171, 235);
+}
+.subp-1{
+  border-radius: 10px;
+  border:5px solid rgb(137, 171, 235);
+  background-color: azure;
+}
+.form{
+  color:rgb(137, 171, 235);
+  margin-bottom:2%;
+  margin-top:2%;
+}
+.form h3 :hover{
+ text-decoration: underline;
+}
+
+.img{
+  margin-top:8.5%;
+}
+.implinks ul{
+list-style: none;
+}
+
+.implinks ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+i{
+  font-size: 40px;
+}
+
+
+.li, .li-1{
+  height:max-content;
+  min-height: 260px;
+  box-sizing: border-box;
+  margin: 20px 15px;
+  text-align: center;
+  background-color:rgb(243, 240, 240);
+   box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.753),-5px -5px 15px rgba(255, 255, 255, 0.753);
+  border-radius: 5px;
+}
+
+@media  only screen and (max-width:540px ) {
+  .part1{
+    height:55vh;
+    background-size: cover;
+    background-position: center;
+  } 
+   .aboutus{
+          height:45vh;
+          background-size: cover;
+          background-position: center;
+           margin-left:2px ;
+          margin-right:2px;
+          overflow-y: auto;
+     }
+     .create{
+      z-index : -1;
+   }
+     .txtalin{
+     position: absolute;
+      top:25%;
+      left:10%;
+  }
+  
+  .part-4{
+    padding-bottom:2%;
+    padding-top:2%;
+    background-color:rgb(137, 171, 235);
+    margin:3%;
+    border-radius:9px;
+     box-shadow: 5px 5px 10px rgb(137, 171, 235),-5px -5px 10px rgb(137, 171, 235);
+  }
+  
+  .part-4 h1{
+    font-size:50px;
+  }
+  .part-4 h6{
+    font-size:10px;
+  }
+  .part-5{
+    background-image: url("lukas-bato-BAhBnhkbVuU-unsplash.jpg");
+    padding-top:3%;
+     border-radius: 10px;
+      height:45vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow-y: auto;
+  text-align: center;
+  }
+  .part-5 div{
+    position: absolute;
+    top:3%;
+    
+}
+.form{
+  color:rgb(137, 171, 235);
+  margin-bottom:2%;
+  margin-top:2%;
+}
+.img{
+  display: none;
+}
+.li, .li-1{
+
+  margin:20px 5px;
+}
+
+  }
+
+  @media  only screen and (min-width:540px ) and (max-width:990px) {
+    .part1{
+      height:55vh;
+  }
+  .create{
+    z-index : -1;
+ }}
+
+
+
+ 
